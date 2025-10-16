@@ -1,0 +1,1 @@
+public class Cat { private String name; private String color; public Cat(String name, String color) { this.name = name; this.color = color; } public void describeCat() { System.out.println("My cat " + name + " is a " + color + " cat!"); } } public class Main { public static void main(String[] args) { Cat myCat = new Cat("Luna", "gray"); myCat.describeCat(); } }
