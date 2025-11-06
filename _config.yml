@@ -3,26 +3,16 @@ description: "Class of 2026"
 owner_name: Eshika Pallapotu
 github_username: EshikaP1
 github_repo: "student_CSA"
+baseurl: "/student_CSA" 
 future: true
-baseurl: ""
-url: "http://127.0.0.1:4500"
-
-
 remote_theme: jekyll/minima
-
 minima:
   skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/open-coding-society" }
     - { platform: x, user_url: "https://x.com/Open_Coding" }
-    - { platform: youtube, user_url: "https://www.youtube.com/@OpenCodingSociety" }
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-header_pages:
-  - navigation/blog.md
-  - navigation/search.md
-  - navigation/about.md
-  - navigation/logintoolkit.md
+    - { platform: youtube, user_url: "https://www.youtube.com/@OpenCodingSociety" } 
+  nav_pages:
+    - navigation/blog.md
+    - navigation/search.md
+    - navigation/about.md
